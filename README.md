@@ -99,3 +99,16 @@ bpython==0.24
     ├── idna [required: >=2.5,<4, installed: 3.6]
     └── urllib3 [required: >=1.21.1,<3, installed: 2.2.1]
 ```
+
+## Use Pipenv environments
+```console
+mkdir resize_photos_with_pipenv
+
+cd resize_photos_with_pipenv/
+
+cp ../resize_photos/requirements.txt
+
+pipenv shell
+
+pipenv run pip freeze
+```
