@@ -19,3 +19,23 @@ Using /usr/bin/python3 (3.10.12) to create virtualenv...
 ✔ Successfully created virtual environment!
 Virtualenv location: /home/wayne/.local/share/virtualenvs/wayne-ZnM5EoVx
 ```
+
+## Activate pipenv shell
+```console
+pipenv shell
+```
+
+## Install bpython
+```console
+pipenv install bpython
+```
+
+## Manage Pipenv environments
+```console
+pipenv --rm
+
+pipenv shell
+
+pipenv install
+Installing dependencies from Pipfile.lock
+```
