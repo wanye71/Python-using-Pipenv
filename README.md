@@ -38,4 +38,6 @@ pipenv shell
 
 pipenv install
 Installing dependencies from Pipfile.lock
+
+pipenv install requests
 ```
